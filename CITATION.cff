@@ -1,0 +1,47 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: >-
+  Simulación dinámica de un proceso de fermentación mediante
+  un sistema de ecuaciones diferenciales ordinarias
+message: 'Si utiliza este proyecto, por favor cite este trabajo.'
+type: software
+authors:
+  - given-names: Dario Antonio
+    family-names: Martinez Camarena
+    email: l21210684@tectijuana.edu.mx
+    affiliation: >-
+      Tecnológico Nacional de México / Instituto Tecnológico
+      de Tijuana
+repository-code: 'https://github.com/Dario-Mtz'
+url: 'https://biomath.xyz/'
+abstract: >-
+  Este proyecto desarrolla un gemelo digital basado en un
+  sistema de ecuaciones diferenciales ordinarias no lineales
+  para simular la dinámica de un proceso de fermentación. El
+  modelo considera tres variables de estado: biomasa,
+  producto generado y sustrato disponible. A partir de datos
+  experimentales seleccionados, se implementa un modelo
+  matemático ajustado mediante regresión simbólica y
+  regresión no lineal, evaluando su comportamiento mediante
+  simulaciones numéricas con el método de Heun, análisis de
+  puntos de equilibrio, matriz Jacobiana, estabilidad local
+  y simulación en Simulink con una perturbación externa
+  sobre el sustrato. El trabajo permite analizar la
+  evolución del sistema y estudiar su respuesta dinámica
+  ante condiciones simuladas de operación.
+keywords:
+  - Fermentación
+  - Gemelo digital
+  - Ecuaciones diferenciales ordinarias
+  - Sistema no lineal
+  - Simulación numérica
+  - Método de Heun
+  - MATLAB
+  - Simulink
+  - Bioestadística
+  - Regresión no lineal
+license: BSD-2-Clause
+version: '1.0'
+date-released: '2026-05-26'
